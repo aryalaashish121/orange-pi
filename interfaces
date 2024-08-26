@@ -1,0 +1,13 @@
+#!/bin/bash
+source /etc/network/interfaces.d/*
+#Network is managed by network manager
+# default values
+#auto lo
+#iface lo inet loopback
+
+#Needed configuration
+auto wlan0
+iface wlan0 inet dhcp
+wpa-ssid "acharyaarjun"
+wpa-psk "CLB27CE1E"
+
